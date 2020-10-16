@@ -1,11 +1,13 @@
 # Jarkom_Modul1_Lapres_D1
 
 Affan Ahsanul Habib 5111740000091
+
 Muhammad Afif Fadhlurrahman 5111840000093
 
 ## Display Filter
 
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
+	
 	**Jawab**
 
 	Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini
@@ -17,6 +19,15 @@ Muhammad Afif Fadhlurrahman 5111840000093
 	2. Maka akan terbuka seperti ini, kemudian find server, dan hasilnya : `Server: nginx/1.14.0 (Ubuntu)`
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
+
+	1. Klik **File** > **Export Objects** > **HTTP**
+
+	2. Akan muncul seperti dibawah
+
+	3. Cari “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg” di **Text Filter**, kemudian **Save** pada directory yang diinginkan
+
+	4. Gambar sudah disimpan
+
 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 5. Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
