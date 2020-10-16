@@ -9,24 +9,18 @@ Muhammad Afif Fadhlurrahman 5111840000093
 
 	**Jawab**
 
-	Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini
-
-	1. **Display Filter** seperti berikut, kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
-
-		`http.host == "testing.mekanis.me"`
-
+	Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini  
+	1. **Display Filter** seperti berikut, kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**  
+		`http.host == "testing.mekanis.me"`  
 	2. Maka akan terbuka seperti ini, kemudian find server, dan hasilnya : `Server: nginx/1.14.0 (Ubuntu)`
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
 	**Jawab**
 
-	1. Klik **File** > **Export Objects** > **HTTP**
-
-	2. Akan muncul seperti dibawah
-
-	3. Cari “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg” di **Text Filter**, kemudian **Save** pada directory yang diinginkan
-
+	1. Klik **File** > **Export Objects** > **HTTP**  
+	2. Akan muncul seperti dibawah  
+	3. Cari “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg” di **Text Filter**, kemudian **Save** pada directory yang diinginkan  
 	4. Gambar sudah disimpan
 
 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
@@ -44,8 +38,7 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 
 	**Jawab**
 
-	1. Pertama, mencari IP dari Microsoft FTP Service. Dengan cara filter `ftp contains "Microsoft"`. Ditemukan IP-nya `198.246.117.106`
-
+	1. Pertama, mencari IP dari Microsoft FTP Service. Dengan cara filter `ftp contains "Microsoft"`. Ditemukan IP-nya `198.246.117.106`  
 	2. Selanjutnya menggunakan filter `ftp.request.command == RETR` untuk melihat objek yang diunduh. Untuk mengetahui hasil unduhan dari Microsoft FTP Service, filter tersebut digabungkan dengan filter yang mencari IP dari Microsoft. Hasilnya `ftp.request.command == "RETR" && ip.addr == 198.246.117.106`
 
 9. Cari username dan password ketika login FTP pada localhost!
