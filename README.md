@@ -6,11 +6,14 @@ Muhammad Afif Fadhlurrahman 5111840000093
 ## Display Filter
 
 1. Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
-### Jawab
+	**Jawab**
 
-Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini  
+	Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini
+
 	1. **Display Filter** seperti berikut, kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
-	`http.host == "testing.mekanis.me"`
+		
+		`http.host == "testing.mekanis.me"`
+
 	2. Maka akan terbuka seperti ini, kemudian find server, dan hasilnya : `Server: nginx/1.14.0 (Ubuntu)`
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
