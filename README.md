@@ -40,40 +40,40 @@ Muhammad Afif Fadhlurrahman 5111840000093
 	
 	**Jawab**
 	
-	1. Masukkan display filter `http.host == "aku.pengen.pw"`, kemudian akan terbuka seperti ini
+	1. Masukkan display filter `http.host == "aku.pengen.pw"`, kemudian akan terbuka seperti ini <br>
 	![No 5](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/5a.png)
 	2. Kemudian pilih baris Hypertext Transfer Protocol > Authorization,  maka di bagian credential akan terdapat user dan password untuk akses web "aku.pengen.pw"<br>
 	![No 5](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/5b.png)
-	3. Isi jawaban yang ada di web tersebut, lalu screenshot
+	3. Isi jawaban yang ada di web tersebut, lalu screenshot <br>
 	![No 5](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/5c.png)
 	
 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 	
 	**Jawab**
 	
-	1. Masukan filter `ftp-data.command ~ "zipkey.txt"`
+	1. Masukan filter `ftp-data.command ~ "zipkey.txt"` <br>
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6a.png)
-	2. Kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
+	2. Kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream** <br>
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6b.png)
 	3. Setelah itu, masukan filter `ftp-data.command ~ "Answer.zip"`, pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream** <br>
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6c.png)
-	4. Show and save data as RAW, lalu buka file zip > pilih file **Open This.pdf** > masukkan password
+	4. Show and save data as RAW, lalu buka file zip > pilih file **Open This.pdf** > masukkan password <br>
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6d.png)
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6e.png)
-	5. Setelah itu file pdf akan seperti ini
-	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6d.png)
+	5. Setelah itu file pdf akan seperti ini <br>
+	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6f.png)
 
 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
 Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 	
 	**Jawab**
 	
-	1. Masukan filter `ftp-data contains "Yes.pdf"`
-	2. Kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
+	1. Masukan filter `ftp-data contains "Yes.pdf"` <br>
+	2. Kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream** <br>
 	![No 7](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/7a.png)
-	3. Kemudian **Save** pada directory yang diinginkan
+	3. Kemudian **Save** pada directory yang diinginkan <br>
 	![No 7](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/7b.png)
-	4. Setelah itu file pdf akan seperti ini
+	4. Setelah itu file pdf akan seperti ini <br>
 	![No 7](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/7c.png)
 
 8. Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
@@ -87,8 +87,9 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 	
 	**Jawab**
 	
-	Masukan filter `ftp.request.command == "USER" || ftp.request.command == "PASS"`
+	Masukan filter `ftp.request.command == "USER" || ftp.request.command == "PASS"` <br>
 	![No 9](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/9a.png)
+	
 10. Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46"
 
