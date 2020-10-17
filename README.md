@@ -55,7 +55,7 @@ Muhammad Afif Fadhlurrahman 5111840000093
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6a.png)
 	2. Kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6b.png)
-	3. Setelah itu, masukan filter `ftp-data.command ~ "Answer.zip"`, pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**
+	3. Setelah itu, masukan filter `ftp-data.command ~ "Answer.zip"`, pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream** <br>
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6c.png)
 	4. Show and save data as RAW, lalu buka file zip > pilih file **Open This.pdf** > masukkan password
 	![No 6](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/6d.png)
