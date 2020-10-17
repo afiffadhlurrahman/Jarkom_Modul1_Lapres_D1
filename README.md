@@ -120,7 +120,44 @@ clue: "25 50 44 46"
 
 ## Capture Filter
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+	**Jawab**
+	1. Jalankan **FileZilla** Server dan Client sesuai petunjuk saat [sesi lab](https://github.com/arsitektur-jaringan-komputer/Modul-Jarkom/tree/modul-1)  
+	2. Pada **Capture Filter** masukkan `port 21`  dan pilih **Adapter for loopback trafic capture**
+	![No 11](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/11a.png)
+	2. Hasil **Capture Filter** seperti dibawah  
+	![No 11](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/11b.png)
+
 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+	
+	**Jawab**
+	1. Pada **Capture Filter** masukkan `src port 80`  
+	![No 12](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/12a.png)
+	2. Hasil **Capture Filter** seperti dibawah  
+	![No 12](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/12b.png)
+
 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+	
+	**Jawab**
+	1. Pada **Capture Filter** masukkan `dst port 443`  
+	![No 13](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/13a.png)
+	2. Hasil **Capture Filter** seperti dibawah  
+	![No 13](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/13b.png)
+
 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+	**Jawab**
+
+	1. Pertama, buka aplikasi wireshark lalu masukkan command `ip src 192.168.1.11` (untuk mengetahui ip sendiri bisa cek di ipconfig)  
+	![No 14](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/14a.png)
+	2. Lalu setelah dijalankan akan seperti ini  
+	![No 14](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/14b.png)
+
 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+	**Jawab**
+
+	1. Pertama buka aplikasi wireshark, lalu masukkan command `dst host monta.if.its.ac.id`  
+	![No 15](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/15a.png)
+	2. Lalu setelah dijalankan akan seperti ini tampil seperti ini  
+	![No 15](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/15b.png)
