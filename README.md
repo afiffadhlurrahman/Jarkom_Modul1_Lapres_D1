@@ -12,22 +12,30 @@ Muhammad Afif Fadhlurrahman 5111840000093
 	Webserver pada "testing.mekanis.me" dapat dilihat dengan langkah-langkah berikut ini  
 	1. **Display Filter** seperti berikut, kemudian pilih baris paling atas > klik kanan > pilih **Follow** > **TCP Stream**  
 		`http.host == "testing.mekanis.me"`  
-	2. Maka akan terbuka seperti ini, kemudian find server, dan hasilnya : `Server: nginx/1.14.0 (Ubuntu)`
+	![No 1](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/1a.png)
+	2. Maka akan terbuka seperti ini, kemudian find server, dan hasilnya : `Server: nginx/1.14.0 (Ubuntu)`  
+	![No 1](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/1b.png)
 
 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
 	**Jawab**
 
 	1. Klik **File** > **Export Objects** > **HTTP**  
+	![No 2](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/2a.png)
 	2. Akan muncul seperti dibawah  
+	![No 2](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/2b.png)
 	3. Cari “Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg” di **Text Filter**, kemudian **Save** pada directory yang diinginkan  
-	4. Gambar sudah disimpan
+	![No 2](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/2c.png)
+	4. Gambar sudah disimpan  
+	![No 2](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/2d.png)
 
 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
 
 	**Jawab**
 
-	Pada **Display Filter** melakukan filter `http.host == "ppid.dpr.go.id" && http.request.method == "POST"`
+	Pada **Display Filter** melakukan filter `http.host == "ppid.dpr.go.id" && http.request.method == "POST"`  
+	![No 3](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/3b.png)
+	![No 3](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/3b.png)
 
 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 	
@@ -81,7 +89,9 @@ Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 	**Jawab**
 	
 	1. Pertama, mencari IP dari Microsoft FTP Service. Dengan cara filter `ftp contains "Microsoft"`. Ditemukan IP-nya `198.246.117.106`  
-	2. Selanjutnya menggunakan filter `ftp.request.command == RETR` untuk melihat objek yang diunduh. Untuk mengetahui hasil unduhan dari Microsoft FTP Service, filter tersebut digabungkan dengan filter yang mencari IP dari Microsoft. Hasilnya `ftp.request.command == "RETR" && ip.addr == 198.246.117.106`
+	![No 8](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/8a.png)
+	2. Selanjutnya menggunakan filter `ftp.request.command == RETR` untuk melihat objek yang diunduh. Untuk mengetahui hasil unduhan dari Microsoft FTP Service, filter tersebut digabungkan dengan filter yang mencari IP dari Microsoft. Hasilnya `ftp.request.command == "RETR" && ip.addr == 198.246.117.106`  
+	![No 8](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/8b.png)
 
 9. Cari username dan password ketika login FTP pada localhost!
 	
@@ -96,11 +106,17 @@ clue: "25 50 44 46"
 	**Jawab**
 
 	1. Cari dengan **Find a packet**, seperti pada gambar. Atau dengan *Shortcut* **CTRL**+**F**  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10a.png)
 	2. Ganti menjadi **Hex Velue**. Lalu masukkan clue tadi. Klik **Find**  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10b.png)
 	3. Maka akan ada paket yang diblok hitam, seperti pada gambar  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10c.png)
 	4. Klik kanan pada paket tersebut. Pilih **Follow** kemudian **TCP Stream**. Hasilnya  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10d.png)
 	5. Ganti “Show and save data as” menjadi **RAW**, seperti pada gambar.  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10e.png)
 	6. Kemudian Save As, beri nama dengan format “.pdf”. Hasilnya  
+	![No 10](https://github.com/afiffadhlurrahman/Jarkom_Modul1_Lapres_D1/blob/main/img/10f.png)
 
 ## Capture Filter
 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
